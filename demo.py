@@ -111,8 +111,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ]
 
     await update.message.reply_text(
-        "🚀 hello bro vào bot 
-hệ thống bot mời bạn bè kiếm tiền tiêu sau tết!",
+        "🚀 hello bro vào bot hệ thống bot mời bạn bè kiếm tiền tiêu sau tết!",
         reply_markup=ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
     )
 
@@ -344,3 +343,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
